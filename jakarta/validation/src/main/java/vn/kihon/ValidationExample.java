@@ -9,10 +9,10 @@ class ValidationExample {
     public static void main(String[] args) {
         MyBean myBean = new MyBean();
 
-        try (ValidatorFactory validatorFactory = Validation.byProvider()) {
-            Validator validator = validatorFactory.getValidator();
-            validator.validate(myBean);
-        }
+//        try (ValidatorFactory validatorFactory = Validation.byProvider()) {
+//            Validator validator = validatorFactory.getValidator();
+//            validator.validate(myBean);
+//        }
 
         try (ValidatorFactory validatorFactory = Validation.buildDefaultValidatorFactory()) {
             Validator validator = validatorFactory.getValidator();
