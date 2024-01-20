@@ -1,10 +1,6 @@
 rootProject.name = 'spring-framework'
 
-include('jakarta:validation')
-include('spring-bean')
-include('spring-data')
-include('spring-mvc')
-include('spring:core')
-include('spring:boot')
-include('spring:boot:kafka')
-include('spring:kafka')
+include 'spring-boot'
+include 'spring-boot-web'
+include 'spring-boot-security'
+include 'spring-authorization-server'

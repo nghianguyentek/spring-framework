@@ -9,6 +9,10 @@
 
 - `gradle bootRun`
 
+## Spring Boot and Gradle
+
+- https://docs.spring.io/spring-boot/docs/current/gradle-plugin/reference/htmlsingle/
+
 ## References
 
 - https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#web

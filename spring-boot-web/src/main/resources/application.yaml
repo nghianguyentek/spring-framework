@@ -1,0 +1,12 @@
+logging:
+  level:
+    vn.kihon: info
+
+server:
+  compression:
+    enabled: true
+  port: 8888
+
+spring:
+  main:
+    banner-mode: off

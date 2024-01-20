@@ -1,0 +1,7 @@
+logging:
+  level:
+    vn.kihon: info
+
+spring:
+  main:
+    banner-mode: off
