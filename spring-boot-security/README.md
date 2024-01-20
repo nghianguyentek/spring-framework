@@ -1,20 +1,12 @@
 # Spring Boot Security
 
-## Gradle configuration
+## Gradle dependencies
 
 build.gradle
 ```groovy
 dependencies {
 	implementation "org.springframework.boot:spring-boot-starter-security"
 }
-```
-
-### Specific version
-
-build.gradle
-```groovy
-ext['spring-security.version']='6.2.1'
-ext['spring.version']='6.1.2'
 ```
 
 ## Features
