@@ -1,8 +1,12 @@
 logging:
   level:
+    org.eclipse.jetty: warn
+    org.springframework.boot.web: warn
+    org.springframework.web: warn
     vn.kihon: info
 
 server:
+  address: localhost  # comment this line to expose us to outside
   compression:
     enabled: true
   port: 8888

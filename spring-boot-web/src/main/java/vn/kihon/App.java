@@ -1,4 +1,4 @@
-package vn.kihon.spring.boot;
+package vn.kihon;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
